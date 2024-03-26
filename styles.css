@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(flower.jpg);
+    background-size: cover; /* Adjust how the background image is sized */
+}
+
+header {
+    background-color: #fa054e;
+    color: #030303;
+    padding: 7px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.5);
+    margin: 10px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+    
+}
+
+.introduction {
+    background-color: #fa054e;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.5);
+    text-align: center;
+    font-size: x-large;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-right: 10px ;/*Push to the left*/
+}
+
+nav ul li {
+    display:inline-block;
+    margin: 10px ;/*Add spacing between items*/
+}
+
+nav ul li a {
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: #fa054e;
+    color: #030303;
+    border-radius: 50px; /* This makes the buttons oval-shaped */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #e75083; /* Change color on hover */
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: #fa054e;
+    color: #030303;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.photo {
+    margin-right: 20px; /* Add spacing between content and photo */
+    border-radius: 100px;
+
+}
+
+.photo img {
+    max-width: 100%; /* Make sure photo does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    display:block;
+    margin: auto auto; /* Center the image horizontally */
+    object-fit: cover;
+    border-radius: 200px;
+    box-shadow: #030303;
+}
+
+.contact {
+    padding: 40px;
+    color: rgb(3, 3, 3);
+}
+
+footer {
+    text-align: center;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+    .introduction,
+    .skills,
+    .contact {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
